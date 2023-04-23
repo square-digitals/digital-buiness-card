@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 300px;
+    margin:auto;
+    background-color: #282d35;
+    min-height: 100vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.info--img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.info--name{
+    text-align: center;
+    color: white;
+    margin: unset;
+    margin-top: 10px;
+}
+
+.info--occupation{
+    font-size: 12px;
+    font-weight: 200;
+    margin: unset;
+    text-align: center;
+    font-style:italic;
+    color: wheat;
+}
+
+.info--buttons{
+    display: flex;
+    justify-content: center;
+
+}
+
+.info--buttons button{
+    padding: 6px 15px;
+    margin: 10px 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    border: none;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.info--buttons__btn2{
+    background-color: #61dafb;
+}
+
+.inner-container{
+    padding: 0 10px;
+}
+
+.about--heading{
+    color:white;
+    margin: unset;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.about--paragraph{ 
+    margin: unset;
+    margin-top: 5px;
+    color:white;
+    font-size: 10px;
+    font-weight: 200;;
+}
+
+.footer{
+    padding: 20px 0;
+    background-color: #000000;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer .icons{
+    color:white;
+}
